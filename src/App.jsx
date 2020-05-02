@@ -10,7 +10,7 @@ const App = styled.div`
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Operator Mono Light', sans-serif;
+    font-family: 'Monserrat', sans-serif;
     box-sizing: border-box;
     background-color: ${({ theme }) => theme.backgroundColor};
     margin:0;
