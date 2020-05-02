@@ -1,4 +1,4 @@
 import React from 'react';
-import Home from 'components/Header';
+import DropdownMenu from 'components/DropdownMenu';
 
-export default () => <Home />;
+export default () => <DropdownMenu />;

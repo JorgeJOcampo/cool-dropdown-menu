@@ -10,7 +10,7 @@ const App = styled.div`
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Operator Mono Light', sans-serif;
     box-sizing: border-box;
     background-color: ${({ theme }) => theme.backgroundColor};
     margin:0;
@@ -21,13 +21,14 @@ const GlobalStyle = createGlobalStyle`
 const lightMode = {
   backgroundColor: '#F6F8FC',
   link: 'rgb(112, 76, 182)',
-  text: 'black'
+  fontColor: 'black'
 };
 
 const darkMode = {
-  backgroundColor: 'black',
+  backgroundColor: '#1f252e',
+  accent: '#008cba',
   link: 'rgb(112, 76, 182)',
-  text: 'white'
+  fontColor: 'white'
 };
 
 export default () => {
